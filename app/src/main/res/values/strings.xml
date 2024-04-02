@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyHistoryAPP</string>
+    <string name="clear">Clear</string>
+    <string name="confirm">Confirm</string>
+    <string name="enter_your_age">Enter your age</string>
+    <string name="todo">TODO</string>
+</resources>

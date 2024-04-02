@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@drawable/animation_list"
+    android:layout_height="match_parent"
+    tools:context="MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/b2"
+        android:contentDescription="@string/todo" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="431dp"
+        android:layout_height="167dp"
+        android:gravity="center"
+        android:text="WELCOME TO MY HYSTORY APP"
+        android:textSize="23sp"
+
+        android:textStyle="bold"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.811" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="284dp"
+        android:layout_height="78dp"
+        android:background="#5F1A1F"
+        android:ems="10"
+        android:gravity="center"
+        android:hint= "@string/enter_your_age"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="#8A792F"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.405"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/confirmButton"
+        android:layout_width="149dp"
+        android:layout_height="67dp"
+        android:backgroundTint="#5F1A1F"
+        android:text= "@string/confirm"
+        android:textSize= "19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.557" />
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="144dp"
+        android:layout_height="73dp"
+        android:backgroundTint="#5F1A1F"
+        android:text="@string/clear"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.562" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
